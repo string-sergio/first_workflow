@@ -1,0 +1,10 @@
+name: Sergio Espabila
+on: [push]
+jobs:
+ build:
+   runs-on: ubuntu-latest
+   steps:
+     - id: step-zero
+       run: |
+         echo "Sergio Espabila"
+         echo "Chiquito PUSH acabas de hacer me neño"
